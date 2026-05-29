@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login & Registration UI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <div class="form-box">
+      
+      <div class="button-box">
+        <button id="loginBtn" class="active">Login</button>
+        <button id="registerBtn">Register</button>
+      </div>
+
+      <!-- Login Form -->
+      <form id="loginForm" class="form active-form">
+        <h2>Login</h2>
+
+        <input type="email" id="loginEmail" placeholder="Email">
+        <small class="error"></small>
+
+        <input type="password" id="loginPassword" placeholder="Password">
+        <small class="error"></small>
+
+        <button type="submit">Login</button>
+      </form>
+
+      <!-- Register Form -->
+      <form id="registerForm" class="form">
+        <h2>Create Account</h2>
+
+        <input type="text" id="registerName" placeholder="Full Name">
+        <small class="error"></small>
+
+        <input type="email" id="registerEmail" placeholder="Email">
+        <small class="error"></small>
+
+        <input type="password" id="registerPassword" placeholder="Password">
+        <small class="error"></small>
+
+        <button type="submit">Register</button>
+      </form>
+
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
